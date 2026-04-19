@@ -15,6 +15,7 @@ This board handles the wireless communication layer of the Overkill platform usi
 - Hand-solderable (0805 components, some small parts)
 
 It can operate:
+
 - **Standalone** (like a typical nRF24 breakout / nRFBOX-style module)
 - **Integrated** into the Overkill system as a dedicated RF subsystem
 
@@ -33,10 +34,12 @@ It can operate:
 ## Hardware
 
 ### Radio
+
 - nRF24L01+ module (standard SPI interface)
 - Optional PA+LNA modules supported (with proper power design)
 
 ### Passive Components
+
 - Mostly **0805 footprint components**
   - Easier soldering
   - Better availability
@@ -45,9 +48,10 @@ It can operate:
   - Makes me happier to work on the board
 
 ### Interface Pins
-  - JST-PH for connection to Overkill core board (data + power)
-Power:
-  - 3.3V regulated supply
+
+- JST-PH for connection to Overkill core board (data + power)
+  Power:
+- 3.3V regulated supply
 
 ---
 
@@ -87,6 +91,7 @@ The goal is fast iteration for RF experiments inside the Overkill platform.
 This board is part of the larger **Overkill modular hardware system**.
 
 It is designed to interface with:
+
 - Core controller board (SPI master/UART)
 - Power distribution board
 - Other sensor / compute modules
@@ -106,5 +111,5 @@ It is designed to interface with:
 ## Status
 
 In active development  
-Prototype stage  (Working breadboard prototype!)
+Prototype stage (Working breadboard prototype!)
 RF subsystem functional (module-based)
