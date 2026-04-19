@@ -145,10 +145,12 @@ Other parts of the system are being developed separately.
 
 ---
 
-## Flashing
+## Assembley and Programming
 - The board can be programmed using USB
 - Use PlatformIO or Arduino IDE with the appropriate settings for the ESP32 microcontroller
 - Make sure to select the correct COM/TTY port when flashing
+- Refer to the firmware/ directory for example code and libraries to get started with the board
+- Use flux when soldering for better results, especially around the nRF24L01+ module and small components
 
 ## Bill of Materials (BOM)
 
