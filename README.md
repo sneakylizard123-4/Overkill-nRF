@@ -1,6 +1,6 @@
 # Overkill nRF Board
 
-A modular RF communication board designed for the **Overkill system**, built around the **nRF24L01+ radio module** instead of a bare RF IC. This makes the design easier to assemble, debug, and iterate while keeping it fully modular inside the Overkill ecosystem.
+A modular RF communication board designed for the **Overkill system**, built around the **nRF24L01+ radio module** instead of a bare RF IC + Amplifier. This makes the design easier to assemble, debug, and iterate while keeping it fully modular inside the Overkill ecosystem.
 
 ---
 
@@ -108,10 +108,10 @@ Bottom-side render (ray-traced KiCad):
 
 ### Schematics
 
-Main schematic sheet 1:
+schematic sheet 1:
 ![Schematic 1](images/sch1.png)
 
-Main schematic sheet 2:
+schematic sheet 2:
 ![Schematic 2](images/sch2.png)
 
 ---
@@ -162,7 +162,7 @@ It includes:
 
 - blender/ - 3D models and renders
 - cad/ - STEP files
-- firmware/ - code for project
+- firmware/ - code for project (platformio)
 - images/ - pictures and screenshots
 - kicad/ - KiCad project files
 
