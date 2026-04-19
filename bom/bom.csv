@@ -1,0 +1,30 @@
+Qty, Item, Description, Option/MPN, Manufacturer, Package, Unit Price, Total Price, Purchase Link, Notes
+2, Antenna, 2.4GHz, 2.4 5.8G SMA, , , "C$6.39", "C$12.78", https://www.aliexpress.com/item/1005007573271319.html, total 4 antennas
+6, Radio, nRF24L01+, GT-24 SMD, , , "C$3.64", "C$21.84", https://www.aliexpress.com/item/4001134750735.html, total 6 radios
+5, Connector, SMA, female, , , "C$5.91", "C$29.55", https://www.aliexpress.com/item/1005007542020934.html, total 5 connectors
+10, Connector Header, 4 position 2mm pitch, S4B-PH-K-S(LF)(SN), JST, "Through Hole Right Angle P=2mm", $0.0556, $0.56, https://www.lcsc.com/product-detail/C157926.html, C157926
+10, Tactile Switch, SPST-NO 100gf, PTS647SN50SMTR2LFS, C&K, SMD, $1.3011, $13.01, https://www.lcsc.com/product-detail/C2799414.html, C2799414
+3, ESD Diode, 8VC Clamp 5A, TPD2EUSB30DRTR, TI, SOT(9x3), $0.5305, $1.59, https://www.lcsc.com/product-detail/C97502.html, C97502
+3, ESP32 Module, 2.4GHz WiFi+BT, ESP32-S3-WROOM-1U-N16R8, Espressif, SMD 19.2x18mm, $5.3260, $15.98, https://www.lcsc.com/product-detail/C3013946.html, C3013946
+5, Tactile Switch, SPST 1.59N, B3U-3000P, Omron, SMD 3x2.5mm, $0.3732, $1.87, https://www.lcsc.com/product-detail/C963349.html, C963349
+3, Slide Switch, SPDT, JS102011SAQN, C&K, SMD, $1.0179, $3.05, https://www.lcsc.com/product-detail/C221660.html, C221660
+100, Resistor, 5.1kΩ ±1%, 0805W8F5101T5E, UNI-ROYAL, 0805, $0.0027, $0.27, https://www.lcsc.com/product-detail/C27834.html, C27834
+100, Resistor, 1kΩ ±1%, RC0805FR-071KL, YAGEO, 0805, $0.0026, $0.26, https://www.lcsc.com/product-detail/C95781.html, C95781
+100, Resistor, 10kΩ ±1%, 0805W8F1002T5E, UNI-ROYAL, 0805, $0.0030, $0.30, https://www.lcsc.com/product-detail/C17414.html, C17414
+100, Resistor, 100kΩ ±1%, 0805W8F1003T5E, UNI-ROYAL, 0805, $0.0028, $0.28, https://www.lcsc.com/product-detail/C149504.html, C149504
+100, Resistor, 22Ω ±1%, FRC0805F22R0TS, FOJAN, 0805, $0.0022, $0.22, https://www.lcsc.com/product-detail/C2907244.html, C2907244
+5, MOSFET, N-Channel 30V, AO3400A, AOS, SOT-23, $0.0828, $0.41, https://www.lcsc.com/product-detail/C20917.html, C20917
+5, MicroSD Connector, Push-Push, DM3AT-SF-PEJM5, HRS, SMD, $1.4747, $7.37, https://www.lcsc.com/product-detail/C114218.html, C114218
+10, Capacitor, 10uF 50V X5R, GRM21BR61H106KE43L, muRata, 0805, $0.0723, $0.72, https://www.lcsc.com/product-detail/C440198.html, C440198
+10, Connector Header, 3 position 2mm pitch, S3B-PH-K-S(LF)(SN), JST, "Through Hole Right Angle", $0.0490, $0.49, https://www.lcsc.com/product-detail/C157929.html, C157929
+10, Female Header, 4 position 2.54mm, 2.54-1*4P, BOOMELE, Through Hole, $0.0775, $0.78, https://www.lcsc.com/product-detail/C2718488.html, C2718488
+5, U.FL Connector, 50Ω, U.FL-R-SMT-1(80), HRS, SMD, $0.1161, $0.58, https://www.lcsc.com/product-detail/C88374.html, C88374
+5, USB-C Connector, 16 pin, TYPE-C-31-M-12, Hroparts, SMD, $0.1704, $0.85, https://www.lcsc.com/product-detail/C165948.html, C165948
+10, Ferrite Bead, 600Ω@100MHz, MPZ2012S601AT000, TDK, 0805, $0.0272, $0.27, https://www.lcsc.com/product-detail/C21519.html, C21519
+5, RGB LED, WS2812B, WS2812B-V6, Worldsemi, SMD5050, $0.1034, $0.52, https://www.lcsc.com/product-detail/C52917433.html, C52917433
+50, LED, Yellow 598nm, YLED0805Y, YONGYUTAI, 0805, $0.0121, $0.61, https://www.lcsc.com/product-detail/C20608785.html, C20608785
+100, LED, Red 645nm, YLED0805R, YONGYUTAI, 0805, $0.0081, $0.81, https://www.lcsc.com/product-detail/C19171391.html, C19171391
+100, LED, Blue, YLED0805B, YONGYUTAI, 0805, $0.0084, $0.84, https://www.lcsc.com/product-detail/C19273154.html, C19273154
+20, LED, Green 518nm, 17-21/GHC-XS1T2M/4T, EVERLIGHT, 0805, $0.0241, $0.48, https://www.lcsc.com/product-detail/C2971978.html, C2971978
+50, Diode, 40V 1A, SS14, JSMSEMI, SMA, $0.0109, $0.55, https://www.lcsc.com/product-detail/C2837270.html, C2837270
+100, Capacitor, 100nF 50V X7R, CC0805KRX7R9BB104, YAGEO, 0805, $0.0051, $0.51, https://www.lcsc.com/product-detail/C49678.html, C49678
