@@ -166,6 +166,7 @@ It includes:
 - firmware/ - code for project (platformio)
 - images/ - pictures and screenshots
 - kicad/ - KiCad project files
+- zine/ - zine page for hack club
 
 ---
 
