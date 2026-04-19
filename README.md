@@ -52,8 +52,7 @@ It is designed to be:
 Connection to Overkill system via **JST-PH connector**:
 
 - 3.3V power
-- SPI signals (MOSI, MISO, SCK)
-- Control lines (CE, CSN, IRQ optional)
+- Data signals
 
 ---
 
@@ -81,7 +80,6 @@ The goal is fast iteration for RF experimentation inside the Overkill platform.
 ## PCB Design Notes
 
 - Designed around **0805 components**
-- Keep SPI traces short and clean
 - Maintain solid ground plane under RF section
 - Keep antenna area free of copper and components
 
@@ -89,7 +87,7 @@ The goal is fast iteration for RF experimentation inside the Overkill platform.
 
 ## Images / Documentation
 
-All design visuals are located in the `images/` folder.
+All pictures and screenshots are located in the `images/` folder.
 
 ### PCB Layout
 
@@ -119,7 +117,7 @@ Main schematic sheet 2:
 
 ### Manufacturing / Sourcing
 
-AliExpress reference cart:
+AliExpress cart:
 ![AliExpress Cart](images/aliexpress.png)
 
 LCSC sourcing carts:
@@ -166,13 +164,13 @@ It includes:
 
 ## Status
 
-- Prototype complete
+- Breadboard Prototype complete
 - PCB routed in KiCad
-- 3D assembly validated
+- 3D assembly done
 - Ready for fabrication
 
 ---
 
 ## Notes
 
-This revision prioritizes usability and fast iteration over RF optimization complexity. The goal is to make RF experimentation inside the Overkill system fast, modular, and actually enjoyable.
+This revision prioritizes usability and fast iteration over RF optimization complexity. The goal is to make RF experimentation inside the Overkill system fast, modular, and actually enjoyable to play with.
