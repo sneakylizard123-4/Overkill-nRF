@@ -125,6 +125,10 @@ LCSC sourcing carts:
 ![LCSC Cart 2](images/lcsc2.png)
 ![LCSC Cart 3](images/lcsc3.png)
 
+JLCPCB cart:
+![JLCPCB Cart](images/jlcpcb1.png)
+![JLCPCB Specs](images/jlcpcb2.png)
+
 ---
 
 ## System Integration
