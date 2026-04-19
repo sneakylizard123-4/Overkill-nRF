@@ -145,6 +145,11 @@ Other parts of the system are being developed separately.
 
 ---
 
+## Flashing
+- The board can be programmed using USB
+- Use PlatformIO or Arduino IDE with the appropriate settings for the ESP32 microcontroller
+- Make sure to select the correct COM/TTY port when flashing
+
 ## Bill of Materials (BOM)
 
 A full BOM is included in the repository.
