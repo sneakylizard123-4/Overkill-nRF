@@ -1,4 +1,4 @@
-Qty, Item, Description, Option, Unit Price, Total Price, Purchase Link, Note
-2, Antenna, 2.4GHz, 2.4 5.8G SMA, C$6.39, C$12.78, https://www.aliexpress.com/item/1005007573271319.html, total 4 antennas
-6, Radio, nRF24L01+, GT-24 SMD, C$3.64, C$21.84, https://www.aliexpress.com/item/4001134750735.html, total 6 radios
-1, Shipping, Shipping, Aliexpress, C$8.93, C$8.93, , Shipping cost
+Qty, Item    , Description, Option      , Unit Price, Total Price, Purchase Link                                        , Note
+  2, Antenna , 2.4GHz     , 2.4 5.8G SMA, C$6.39    , C$12.78    , https://www.aliexpress.com/item/1005007573271319.html, total 4 antennas
+  6, Radio   , nRF24L01+  , GT-24 SMD   , C$3.64    , C$21.84    , https://www.aliexpress.com/item/4001134750735.html   , total 6 radios
+  1, Shipping, Shipping   , Aliexpress  , C$8.93    , C$8.93     ,                                                      , Shipping cost
