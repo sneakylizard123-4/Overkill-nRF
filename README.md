@@ -12,6 +12,7 @@ This board handles the wireless communication layer of the Overkill platform usi
 - Modular (plug into the larger Overkill ecosystem)
 - Hackable (all signals broken out cleanly)
 - Repairable (no BGA / fine-pitch RF ICs)
+- Hand-solderable (0805 components, some small parts)
 
 It can operate:
 - **Standalone** (like a typical nRF24 breakout / nRFBOX-style module)
@@ -22,9 +23,10 @@ It can operate:
 ## Key Changes from Previous Revision
 
 - Removed discrete nRF24 RF IC design
-- Switched to **nRF24L01+ module socket/header**
+- Switched to **nRF24L01+ module**
 - Simplified RF routing massively
 - Improved reliability and development speed
+- Less RF pain!
 
 ---
 
@@ -39,19 +41,13 @@ It can operate:
   - Easier soldering
   - Better availability
   - Good balance between size and hand-assembly friendliness
+  - Less eye strain than 0603
+  - Makes me happier to work on the board
 
 ### Interface Pins
-Typical SPI-based interface:
-
-- MOSI
-- MISO
-- SCK
-- CSN
-- CE
-- IRQ (optional)
-
+  - JST-PH for connection to Overkill core board (data + power)
 Power:
-- 3.3V regulated supply (IMPORTANT: nRF24 is not 5V tolerant)
+  - 3.3V regulated supply
 
 ---
 
@@ -69,10 +65,10 @@ The goal is fast iteration for RF experiments inside the Overkill platform.
 
 ## Power Notes
 
-- Clean 3.3V rail is required
+- Clean 3.3V rail is required for stable RF performance
 - Add bulk + decoupling capacitors near module
 - If using PA+LNA modules:
-  - Ensure stable current supply (peaks can spike hard)
+  - Ensure stable current supply
   - Consider separate regulator or heavy decoupling
 
 ---
@@ -91,13 +87,13 @@ The goal is fast iteration for RF experiments inside the Overkill platform.
 This board is part of the larger **Overkill modular hardware system**.
 
 It is designed to interface with:
-- Core controller board (SPI master)
+- Core controller board (SPI master/UART)
 - Power distribution board
 - Other sensor / compute modules
 
 ---
 
-## Future Ideas
+## Future Features
 
 - Multi-radio support (multiple nRF24 modules)
 - Packet sniffing mode
