@@ -160,6 +160,7 @@ It includes:
 
 ## Repository Structure
 
+- bom/ - Bill of Materials (BOM) files
 - blender/ - 3D models and renders
 - cad/ - STEP files
 - firmware/ - code for project (platformio)
