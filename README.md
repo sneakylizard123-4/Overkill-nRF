@@ -128,6 +128,7 @@ LCSC sourcing carts:
 JLCPCB cart:
 ![JLCPCB Cart](images/jlcpcb1.png)
 ![JLCPCB Specs](images/jlcpcb2.png)
+or maybe PCBWay if they sponsor this project too!
 
 ---
 
