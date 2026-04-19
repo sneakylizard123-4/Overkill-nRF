@@ -1,33 +1,35 @@
 # Overkill nRF Board
 
-A modular RF communication board designed for the **Overkill system**, built around the **nRF24L01+ radio module** instead of a bare nRF24 chip for easier assembly, debugging, and reliability.
+A modular RF communication board designed for the **Overkill system**, built around the **nRF24L01+ radio module** instead of a bare RF IC. This makes the design easier to assemble, debug, and iterate while keeping it fully modular inside the Overkill ecosystem.
 
 ---
 
 ## Overview
 
-This board handles the wireless communication layer of the Overkill platform using **nRF24L01+ modules**. It is designed to be:
+The Overkill nRF Board handles wireless communication for the system using **nRF24L01+ modules**.
 
-- Easy to assemble (no RF chip-level routing pain)
-- Modular (plug into the larger Overkill ecosystem)
-- Hackable (all signals broken out cleanly)
-- Repairable (no BGA / fine-pitch RF ICs)
-- Hand-solderable (0805 components, some small parts)
+It is designed to be:
 
-It can operate:
+- Easy to assemble (no RF IC routing complexity)
+- Modular (plugs into Overkill ecosystem)
+- Hackable (all signals exposed)
+- Repairable (no fine-pitch RF ICs)
+- Hand-solderable (mostly 0805 components)
 
-- **Standalone** (like a typical nRF24 breakout / nRFBOX-style module)
-- **Integrated** into the Overkill system as a dedicated RF subsystem
+### Operating Modes
+
+- **Standalone mode** → acts like a standard nRF24 breakout module
+- **Integrated mode** → RF subsystem inside Overkill system
 
 ---
 
 ## Key Changes from Previous Revision
 
 - Removed discrete nRF24 RF IC design
-- Switched to **nRF24L01+ module**
-- Simplified RF routing massively
-- Improved reliability and development speed
-- Less RF pain!
+- Switched to **nRF24L01+ module-based design**
+- Simplified RF routing significantly
+- Improved reliability and build speed
+- Reduced RF design complexity
 
 ---
 
@@ -35,81 +37,143 @@ It can operate:
 
 ### Radio
 
-- nRF24L01+ module (standard SPI interface)
-- Optional PA+LNA modules supported (with proper power design)
+- nRF24L01+ module (SPI interface)
+- Optional PA+LNA module support (with proper power handling)
 
-### Passive Components
+### Components
 
 - Mostly **0805 footprint components**
   - Easier soldering
   - Better availability
-  - Good balance between size and hand-assembly friendliness
-  - Less eye strain than 0603
-  - Makes me happier to work on the board
+  - More forgiving for hand assembly
 
-### Interface Pins
+### Interface
 
-- JST-PH for connection to Overkill core board (data + power)
-  Power:
-- 3.3V regulated supply
+Connection to Overkill system via **JST-PH connector**:
+
+- 3.3V power
+- SPI signals (MOSI, MISO, SCK)
+- Control lines (CE, CSN, IRQ optional)
 
 ---
 
 ## Design Philosophy
 
-This board is intentionally:
+This board prioritizes:
 
-- **Simple over compact**
-- **Modular over integrated**
-- **Debuggable over optimized**
+- Simplicity over compact size
+- Modularity over integration
+- Debuggability over RF perfection
 
-The goal is fast iteration for RF experiments inside the Overkill platform.
+The goal is fast iteration for RF experimentation inside the Overkill platform.
 
 ---
 
 ## Power Notes
 
-- Clean 3.3V rail is required for stable RF performance
-- Add bulk + decoupling capacitors near module
-- If using PA+LNA modules:
-  - Ensure stable current supply
-  - Consider separate regulator or heavy decoupling
+- Requires stable **3.3V supply**
+- nRF24 modules are **not 5V tolerant**
+- Add decoupling capacitors close to module
+- PA+LNA modules may require higher current bursts
 
 ---
 
-## PCB Notes
+## PCB Design Notes
 
-- Designed primarily for **0805 components**
-- Keep RF trace from MCU → module as short as possible
-- Ground plane is critical for stable RF performance
-- Keep antenna area clear of copper and components
+- Designed around **0805 components**
+- Keep SPI traces short and clean
+- Maintain solid ground plane under RF section
+- Keep antenna area free of copper and components
 
 ---
 
-## Overkill Integration
+## Images / Documentation
 
-This board is part of the larger **Overkill modular hardware system**.
+All design visuals are located in the `images/` folder.
 
-It is designed to interface with:
+### PCB Layout
 
-- Core controller board (SPI master/UART)
+![PCB Layout](images/pcb.png)
+
+---
+
+### 3D Renders
+
+Top-side render (ray-traced KiCad):
+![Top Render](images/rend1.png)
+
+Bottom-side render (ray-traced KiCad):
+![Bottom Render](images/rend2.png)
+
+---
+
+### Schematics
+
+Main schematic sheet 1:
+![Schematic 1](images/sch1.png)
+
+Main schematic sheet 2:
+![Schematic 2](images/sch2.png)
+
+---
+
+### Manufacturing / Sourcing
+
+AliExpress reference cart:
+![AliExpress Cart](images/aliexpress.png)
+
+LCSC sourcing carts:
+![LCSC Cart 1](images/lcsc1.png)
+![LCSC Cart 2](images/lcsc2.png)
+![LCSC Cart 3](images/lcsc3.png)
+
+---
+
+## System Integration
+
+The board connects into the Overkill system via JST-PH and is designed to interface with:
+
+- Core controller board (SPI master)
 - Power distribution board
-- Other sensor / compute modules
+- Other modular subsystems
+
+Other parts of the system are being developed separately.
 
 ---
 
-## Future Features
+## Bill of Materials (BOM)
 
-- Multi-radio support (multiple nRF24 modules)
-- Packet sniffing mode
-- Mesh networking experiments
-- PA/LNA switching board variant
-- Onboard RF diagnostics LEDs
+A full BOM is included in the repository.
+
+It includes:
+
+- Component references
+- Values / part numbers
+- Quantities
+- Supplier links (LCSC / AliExpress where applicable)
+
+---
+
+## Repository Structure
+
+ - blender/ - 3D models and renders
+ - cad/ - STEP files
+ - firmware/ - code for project
+ - images/ - pictures and screenshots
+ - kicad/ - KiCad project files
+
 
 ---
 
 ## Status
 
-In active development  
-Prototype stage (Working breadboard prototype!)
-RF subsystem functional (module-based)
+- Prototype complete
+- PCB routed in KiCad
+- 3D assembly validated
+- Ready for fabrication
+
+---
+
+## Notes
+
+This revision prioritizes usability and fast iteration over RF optimization complexity. The goal is to make RF experimentation inside the Overkill system fast, modular, and actually enjoyable.
