@@ -150,18 +150,17 @@ It includes:
 - Component references
 - Values / part numbers
 - Quantities
-- Supplier links (LCSC / AliExpress where applicable)
+- LCSC number
 
 ---
 
 ## Repository Structure
 
- - blender/ - 3D models and renders
- - cad/ - STEP files
- - firmware/ - code for project
- - images/ - pictures and screenshots
- - kicad/ - KiCad project files
-
+- blender/ - 3D models and renders
+- cad/ - STEP files
+- firmware/ - code for project
+- images/ - pictures and screenshots
+- kicad/ - KiCad project files
 
 ---
 
