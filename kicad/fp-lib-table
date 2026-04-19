@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RFX2401C") (type "KiCad") (uri "${KIPRJMOD}/Overkill-nRF-Parts/RFX2401C") (options "") (descr ""))
+	(lib (name "Overkill-nRF-Parts") (type "KiCad") (uri "${KIPRJMOD}/Overkill-nRF-Parts") (options "") (descr ""))
+	(lib (name "Overkill-nRF") (type "KiCad") (uri "${KIPRJMOD}/Overkill-nRF-Parts/Overkill-nRF.pretty") (options "") (descr ""))
+)
