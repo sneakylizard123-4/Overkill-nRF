@@ -70,10 +70,10 @@ The goal is fast iteration for RF experimentation inside the Overkill platform.
 
 ## Power Notes
 
-- Requires stable **3.3V supply**
-- nRF24 modules are **not 5V tolerant**
+- Requires stable **3.3V supply** or **USB power** with proper regulation
+- nRF24 modules are 5V tolerant, but the esp32 is not, so 3.3V is used for the logic part of the board
 - Add decoupling capacitors close to module
-- PA+LNA modules may require higher current bursts
+- PA+LNA modules may require higher current bursts during transmission, so ensure power supply can handle it
 
 ---
 
@@ -82,12 +82,13 @@ The goal is fast iteration for RF experimentation inside the Overkill platform.
 - Designed around **0805 components**
 - Maintain solid ground plane under RF section
 - Keep antenna area free of copper and components
+- use external antennas if possible for better performance
 
 ---
 
-## Images / Documentation
+## Images
 
-All pictures and screenshots are located in the `images/` folder.
+All pictures and screenshots should be in the `images/` folder.
 
 ### PCB Layout
 
