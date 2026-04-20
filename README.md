@@ -172,7 +172,23 @@ Other parts of the system are being developed separately.
    - Confirm resistor values for current limiting
 6. Final inspection
    - Continuity check all power rails
-   - Inspect RF sections for solder bridges or other issues
+   - Inspect RF sections for solder bridges
+
+---
+
+## How to Use
+1. Powering the board
+   - Connect USB power or 3.3V supply to the JST-PH connector
+   - Ensure power supply can provide sufficient current for nRF24 module, especially if using PA+LNA version
+2. Programming the ESP32
+   - Use PlatformIO or Arduino IDE to flash firmware
+   - Connect to the board via USB or UART for debugging
+3. Integrating with Overkill system
+   - Connect the board to the core controller via JST-PH
+   - Use SPI interface to communicate with the nRF24 module
+   - Test RF communication with other nRF24 devices
+
+---
 
 ## Bill of Materials (BOM)
 
