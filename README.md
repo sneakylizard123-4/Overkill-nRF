@@ -152,7 +152,7 @@ Other parts of the system are being developed separately.
 
 ---
 
-## Assembley and Programming
+## Assembly and Programming
 
 1. Start with passives
    - Solder resistors and capacitors first
