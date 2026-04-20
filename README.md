@@ -25,11 +25,8 @@ It is designed to be:
 
 ## Why
 
-- The first design was on a breadboard and was too bulky and unreliable due to old breadbaord
-- I wanted to make a more compact and reliable version that could be easily integrated into the Overkill system
-- I also wanted to try using nRF24L01+ modules with built-in PA+LNA for better range and reliability
-- The goal is to have a modular RF board that can be easily swapped out and upgraded in the future without needing to redesign the entire system
-- breadboard is clunky and the wires kept falling off and coming loose
+- Most off-the-shelf nRF24 setups are either too barebones or too messy to integrate into real projects. Debugging is hard, power handling is often ignored, and the RF design is usually not optimized for real-world use.
+- This board is designed to be a **usable, hackable, and modular RF subsystem** that can be easily integrated into the Overkill system or used standalone for RF experimentation.
 
 ---
 
