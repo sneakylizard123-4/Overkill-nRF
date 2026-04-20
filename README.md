@@ -201,6 +201,7 @@ It includes:
 - Values / part numbers
 - Quantities
 - LCSC number
+- Where to get them (AliExpress, LCSC, etc.)
 
 ---
 
