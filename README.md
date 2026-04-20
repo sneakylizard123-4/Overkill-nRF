@@ -154,11 +154,25 @@ Other parts of the system are being developed separately.
 
 ## Assembley and Programming
 
-- The board can be programmed using USB
-- Use PlatformIO or Arduino IDE with the appropriate settings for the ESP32 microcontroller
-- Make sure to select the correct COM/TTY port when flashing
-- Refer to the firmware/ directory for example code and libraries to get started with the board
-- Use flux when soldering for better results, especially around the nRF24L01+ module and small components
+1. Start with passives
+   - Solder resistors and capacitors first
+   - Double-check values and placements
+2. Power section
+   - Assemble regulator and power filtering stage
+   - Verify 3.3V rail before adding ICs
+3. MCU and logic components
+   - Solder ESP32 and other chips
+   - Inspect for shorts between pins
+4. nRF24 module
+   - Carefully align pins
+   - ensure solid ground connection
+5. LEDs and indicators
+   - Add status LEDs if desired
+   - Match polarity correctly
+   - Confirm resistor values for current limiting
+6. Final inspection
+   - Continuity check all power rails
+   - Inspect RF sections for solder bridges or other issues
 
 ## Bill of Materials (BOM)
 
