@@ -163,6 +163,7 @@ Other parts of the system are being developed separately.
 ## Bill of Materials (BOM)
 
 A full BOM is included in the repository.
+bom/bom.csv
 
 It includes:
 
