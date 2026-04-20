@@ -24,6 +24,7 @@ It is designed to be:
 ---
 
 ## Why
+
 - The first design was on a breadboard and was too bulky and unreliable due to old breadbaord
 - I wanted to make a more compact and reliable version that could be easily integrated into the Overkill system
 - I also wanted to try using nRF24L01+ modules with built-in PA+LNA for better range and reliability
@@ -155,6 +156,7 @@ Other parts of the system are being developed separately.
 ---
 
 ## Assembley and Programming
+
 - The board can be programmed using USB
 - Use PlatformIO or Arduino IDE with the appropriate settings for the ESP32 microcontroller
 - Make sure to select the correct COM/TTY port when flashing
@@ -164,7 +166,7 @@ Other parts of the system are being developed separately.
 ## Bill of Materials (BOM)
 
 A full BOM is included in the repository.
-bom/bom.csv
+see [bom.csv](bom/bom.csv) for details.
 
 It includes:
 
