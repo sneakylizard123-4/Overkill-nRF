@@ -23,11 +23,12 @@ It is designed to be:
 
 ---
 
-## Why I Made This
-- The first design was on a pcb and was too bulky and unreliable due to old breadbaord
+## Why
+- The first design was on a breadboard and was too bulky and unreliable due to old breadbaord
 - I wanted to make a more compact and reliable version that could be easily integrated into the Overkill system
 - I also wanted to try using nRF24L01+ modules with built-in PA+LNA for better range and reliability
 - The goal is to have a modular RF board that can be easily swapped out and upgraded in the future without needing to redesign the entire system
+- breadboard is clunky and the wires kept falling off and coming loose
 
 ---
 
