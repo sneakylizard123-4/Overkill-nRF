@@ -140,6 +140,9 @@ or maybe PCBWay if they sponsor this project too!
 
 ---
 
+### Zine Page
+![Zine Page](zine/Overkill-nRF.pdf)
+
 ## System Integration
 
 The board connects into the Overkill system via JST-PH and is designed to interface with:
@@ -177,6 +180,7 @@ Other parts of the system are being developed separately.
 ---
 
 ## How to Use
+
 1. Powering the board
    - Connect USB power or 3.3V supply to the JST-PH connector
    - Ensure power supply can provide sufficient current for nRF24 module, especially if using PA+LNA version
