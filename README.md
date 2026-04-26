@@ -141,7 +141,7 @@ or maybe PCBWay if they sponsor this project too!
 ---
 
 ### Zine Page
-![Zine Page](zine/Overkill-nRF.pdf)
+![Zine Page](zine/Overkill-nRF.png)
 
 ## System Integration
 
